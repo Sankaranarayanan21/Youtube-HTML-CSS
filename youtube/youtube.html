@@ -1,0 +1,524 @@
+<html>
+<head>
+<title>YouTube</title>
+	
+<link rel="shortcut icon" href="favicon.ico" />
+<style>
+.masterhead{
+display:inline-block;
+
+width:100%;
+	}
+	.logo {
+  display: inline-block;
+}
+ .searchbox {
+  display: inline-block;
+  margin-left: 73px;
+  position: fixed;
+  margin-top: 15px;
+}
+ #sbox{
+ height:30px;
+ width:720px;
+ border:1px solid #E0E0D1;
+ }
+ #subscribeicon
+ {
+ display:inline-block;
+
+ width:30px;
+ padding: 0 8px 0 5.5px;
+  height: 16px;
+  max-width: 100%;
+ }
+.logospan {
+  height: 58px;
+  width: 143px;
+}
+.signinoptions {
+  display: inline-block;
+  margin-left: 962px;
+  vertical-align: top;
+  margin-top: 14px;
+  position: absolute;
+}
+#upload{
+height:30px;
+border-radius:4px;
+color:black;
+font-weight: bold;
+
+}
+#signin{
+height:30px;
+border-radius:4px;
+background:#126db3;	
+  border-color: #167ac6;
+  color:white;
+  font-weight: bold;
+}
+#sbutton {
+  height: 31px;
+  width:61px;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: -31px;
+  border-bottom-color:#E0E0D1;
+    border-left: 0px;
+	  border-top-left-radius: 0;
+background:#f8f8f8;
+  border-color: #d3d3d3;
+  border-bottom-left-radius: 0;
+
+}
+.sidemenu{
+border:0px solid black;
+width:208px;
+height:400px;
+display:inline-block;
+position:absolute;
+font-family:Roboto,arial,sans-serif;
+font-size: 13px;
+left:0px;
+
+}
+.side{
+
+height:36px;
+border:0px dashed red;
+text-align:center;
+  line-height: 43px;
+
+}
+.what{
+
+height:45px;
+border:1px solid #cc181e;
+text-align:center;
+  line-height: 50px;
+  background:#cc181e;
+  font-weight: bold;
+  color:white;
+  
+
+}
+.side1{
+
+height:36px;
+border-top:1px solid #E0E0D1;
+border-bottom:1px solid #E0E0D1;
+text-align:center;
+  line-height: 40px;
+  margin-top: 16px;
+}
+.side:hover{
+background-color:grey;
+color:white;
+}
+.side1:hover{
+background-color:grey;
+color:white;
+}
+#displaycontainer{
+  background-color: #F0F0F0;
+  border: 0px solid black;
+  display: inline;
+  position: absolute;
+  left: 214px;
+  width: 1033px;
+}
+.displayarea{
+background-color:transparent;
+border:0px solid red;
+width:96%;
+  margin-top: 33px;
+  margin-right: 14px;
+overflow:auto;
+float:right;
+  margin-bottom: 32px;
+
+}
+.videoarea{
+display:block;
+border:0px solid #E0E0D1;
+height:200px;
+background-color:white;
+
+}
+.video{
+width:24%;
+border:0px solid black;
+  display: inline-block;
+}
+legend{
+font-family:sans-serif;
+font-size:17px;
+color:black;
+font-weight:bold;
+border:1px solid #f8f8f8;
+}
+.bottomarea {
+  display: inline-block;
+  float: right;
+  width: 98%;
+  padding: 12px;
+
+	background-color:white;
+}
+.bottom{
+display: inline-block;
+  
+  width: 104px;
+}
+.bottombuttons{
+  display: inline-block;
+  float: right;
+  width: 80%;
+  margin-top: 20px;
+}
+.bottomoptions {
+  display: inline-block;
+  float: right;
+  width: 98%;
+  padding: 12px;
+    
+	background-color:white;
+}
+.bottomoptionslevel1
+{
+font-size:17px;
+font-family:sans-serif;
+border-bottom:2px solid #E0E0D1;
+}
+.bottomoptionslevel2
+{
+font-size:14px;
+font-family:sans-serif;
+}
+.main{
+display:inline;
+position:relative;
+}
+#subscribebutton
+{
+  position: absolute;
+  background-color: #e62117;
+  left: 803px;
+  margin-top: -30px;
+  color: white;
+  font-family: Roboto,arial,sans-serif;
+
+}
+.topmenu{
+height:35px;
+border:1px solid #e8e8e8;
+background-color:white;
+border-right:transparent;
+}
+#topmenuoption1
+{
+font-family:sans-serif;
+font-size:13px;
+margin-left:357px;
+  line-height: 40px;
+border-bottom:3px solid #cc181e;
+font-weight: bold;
+}
+#topmenuoption2
+{
+font-family:sans-serif;
+font-size:13px;
+margin-left:37px;
+  line-height: 40px;
+  
+
+}
+#topmenuoption2:hover{
+border-bottom:3px solid #cc181e;
+font-weight: bold;
+}
+#icon0 {
+  height: 27px;
+  width: 30px;
+  margin-left: -35px;
+  margin-top: 10px;
+  position: absolute;
+}
+#icon1 {
+  height: 27px;
+  width: 30px;
+  margin-left: -35px;
+  margin-top: 6px;
+  position: absolute;
+}
+#icon2{
+  height: 27px;
+  width: 30px;
+  margin-left: -38px;
+  margin-top: 6px;
+  position: absolute;
+}
+#icon3 {
+  height: 27px;
+  width: 30px;
+  margin-left: -38px;
+  margin-top: 6px;
+  position: absolute;
+}
+#icon4 {
+  height: 27px;
+  width: 30px;
+  margin-left: -32px;
+  margin-top: 6px;
+  position: absolute;
+}
+#icon5 {
+  height: 27px;
+  width: 30px;
+  margin-left: -42px;
+  margin-top: 6px;
+  position: absolute;
+}
+#nos{
+  position: absolute;
+  left: 921px;
+  margin-top: -28px;
+ border:1px solid grey;
+  color: #777;
+  font-size: 13px;
+ height: 21px;
+}
+#legendicon
+{
+  height: 27px;
+  width: 54px;
+}
+#featured{
+  border: 1px solid black;
+  height: 355px;
+  background:white;}
+#big{
+  border: 1px solid black;
+  height: 272px;
+  width: 473px;
+  position: absolute;
+  margin-left: 27px;
+  margin-top: 14px
+}
+#title
+{
+ border:0px solid black;
+   width: 391px;
+  position: absolute;
+  margin-left: 28px;
+  margin-top: 299px;
+  
+word-wrap: break-word;  
+ color: #167ac6;
+ font-size:17px;
+}
+#lin{
+text-decoration: none;
+color: #167ac6;
+}
+#lin:hover{
+  text-decoration: underline;
+  color: #167ac6;
+}
+.sidemovie1
+{
+
+}
+.sidemovie2
+{
+}
+.sidemovie3
+{
+}
+.sidetitle1
+{
+}
+.sidetitle2
+{
+}
+.sidetitle3
+{
+}
+ </style>
+<script>
+function search(){
+var q=document.getElementById('sbox').value;
+
+window.location.href="https://www.youtube.com/results?search_query="+q;
+}
+function signin()
+{
+window.location.href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252F%253Fhl%253Den-GB%2526gl%253DIN%26feature%3Dsign_in_button%26hl%3Den&passive=true&uilel=3&service=youtube&hl=en#identifier";
+
+}
+function upload()
+{
+window.location.href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252F%253Fhl%253Den-GB%2526gl%253DIN%26feature%3Dsign_in_button%26hl%3Den&passive=true&uilel=3&service=youtube&hl=en#identifier";
+
+}
+</script>
+</head>
+<body>
+<div class="masterhead">
+	<div class="logo">
+		
+		<a href="http://www.youtube.com"><img class="logospan"src="http://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" ></a>
+		
+	</div>
+	<div class="searchbox">
+		<input type="text" id="sbox" placeholder="Search youtube videos">
+		
+		<button id="sbutton" onclick="search();"><img src="searchicon.png" style="height:23px;"></button>
+		
+	</div>
+	<div class="signinoptions">
+		<input type="button" id="upload" value="Upload" onclick="upload();">&nbsp;&nbsp;
+		<input type="button" id="signin" value="Sign In" onclick="signin();">
+	</div>
+		
+</div>
+<div class="main">
+<div class="sidemenu">
+	<div class="what"><img id="icon0" src="home.png">What to Watch 
+	</div>
+	<div class="side"><img id="icon1" src="popular.jpg">Popular 
+	</div>
+	<div class="side"><img id="icon2" src="music.jpg">Music
+	</div>
+	<div class="side"><img id="icon3" src="sports.jpg">Sports
+	</div>
+	<div class="side"><img id="icon4" src="gaming.png"> Gaming
+	</div>
+	<div class="side"><img id="icon5" src="live.png">Live
+	</div>
+	<div class="side1">Browse Channels
+	</div>
+	
+</div>
+<div id="displaycontainer">
+<div class="topmenu">
+<label id="topmenuoption1">What to Watch</label>
+<label id="topmenuoption2">Music</label>
+</div>
+<div class="displayarea">
+	<div id="featured">
+		<div id="big"><img src="gabbar.jpg" id="bigone"style=" width: 473px;height: 272px;"></div>
+	
+	<div id="title"><a id="lin"href="https://www.youtube.com/results?search_query=Gabbar+is+Back">Gabbar is Back|Official Trailer|Akshay Kumar,Sidharth Malhotra,Jacqueline Fernandez</div>
+	<div class="sidemovie1"></div>
+	<div class="sidetitle1"></div>
+	<div class="sidemovie2"></div>
+	<div class="sidetitle2"></div>
+	<div class="sidemovie3"></div>
+	<div class="sidetitle3"></div>
+	</div>
+	
+	<div class="videoarea">
+		<legend><img id="legendicon" src="http://www.erosintl.com/EROS/media/Images/Videos/images/eros-img.jpg">Eros</legend><a href="https://accounts.google.com/ServiceLogin?uilel=3&hl=en&service=youtube&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Den%26feature%3Dsubscribe%26continue_action%3DQUFFLUhqbnZ3WElqdGVucnltZXU0RUdCUjE3TXBXV3FwQXxBQ3Jtc0ttcDVlc0V1V1FKR1hvM0FoZkZ1VEtHd3Fva3BucTlZbE9LdUNBSVRhRTJLNzU3OWx0YVpOQTBHaVpLX2c4T0NmWmloNDZaUmJpc0I4Y09XM3c5MTV3UjUwUWstVDdwcGNrVXhXcUNyYV8zMWpIR2ctblNpLWxaSnY4ZEtXT2UyNlZlYUdvMjY1V0tJMmtPOGViNmF6N0V2LVhWRFZDcjVjSUtyYVdVWFFrcFRIcGF6eThVV1pOYkZZdmxOdTQycEs1Sm5CRDhORC1iRlhqUTBKYXEwRHRqOTN5U19B%26action_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fchannel%252FUC_2irx_BQR7RsBKmUV9fePQ#identifier"><button id="subscribebutton"><img src="subscribe.jpg" id="subscribeicon">Subscribe</button></a><div id="nos">214,810</div>
+		<div class="video">
+			<a href="https://www.youtube.com/watch?v=hXHoeO9o0ZE"><img src="http://1.bp.blogspot.com/-dnGcAgYtEFI/UoOjGB4SmlI/AAAAAAAABVk/KplxUJyMULE/s1600/gandi+baat+dj+chirag.jpg" style="height:130;width:234"/></a>
+		</div>
+		<div class="video">
+			<a href="https://www.youtube.com/watch?v=EkxOXF9J77w"><img src="http://pardesifun.com/wp-content/uploads/2013/11/Saree-Ke-Fall-Sa-R-Rajkumar-Video-Song.jpg" style="height:130;width:234"/></a>
+		</div>
+		<div class="video">
+			<a href="https://www.youtube.com/watch?v=QggsVF0DvDU"><img src="http://movies-bollywood.com/wp-content/uploads/2013/06/984c4af3f50.jpg.jpg"style="height:130;width:234"/></a>
+		</div>
+		<div class="video">
+			<img src="http://photos.filmibeat.com/ph-big/2014/10/lets-take-a-selfie-pulla_141283779500.jpg"style="height:130;width:234"/>
+		</div>
+		
+	</div>
+	<div class="videoarea">
+		<legend><img id="legendicon" src="http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/T-series-logo.svg/653px-T-series-logo.svg.png">T-Series</legend><a href="https://accounts.google.com/ServiceLogin?uilel=3&hl=en&service=youtube&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Den%26feature%3Dsubscribe%26continue_action%3DQUFFLUhqbnZ3WElqdGVucnltZXU0RUdCUjE3TXBXV3FwQXxBQ3Jtc0ttcDVlc0V1V1FKR1hvM0FoZkZ1VEtHd3Fva3BucTlZbE9LdUNBSVRhRTJLNzU3OWx0YVpOQTBHaVpLX2c4T0NmWmloNDZaUmJpc0I4Y09XM3c5MTV3UjUwUWstVDdwcGNrVXhXcUNyYV8zMWpIR2ctblNpLWxaSnY4ZEtXT2UyNlZlYUdvMjY1V0tJMmtPOGViNmF6N0V2LVhWRFZDcjVjSUtyYVdVWFFrcFRIcGF6eThVV1pOYkZZdmxOdTQycEs1Sm5CRDhORC1iRlhqUTBKYXEwRHRqOTN5U19B%26action_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fchannel%252FUC_2irx_BQR7RsBKmUV9fePQ#identifier"><button id="subscribebutton"><img src="subscribe.jpg" id="subscribeicon">Subscribe</button></a><div id="nos">64,867</div>
+		<div class="video">
+			<a href="https://www.youtube.com/watch?v=c27BSddMccs"><img src="https://madaboutmoviez.files.wordpress.com/2014/12/lingaa-poster.jpg" style="height:130;width:234"/></a>
+		</div>
+		<div class="video">
+			<a href="https://www.youtube.com/watch?v=4RmRFW_VjKQ"><img src="http://download4u.in/wp-content/uploads/2014/12/Mona-Gasolina.jpg" style="height:130;width:234"/></a>
+		</div>
+		<div class="video">
+			<img src="http://cdn.koimoi.com/wp-content/new-galleries/2013/03/aashiqui-2-tum-hi-ho-song-aditya-roy-kapoor-shraddha-kapoor-music-by-mithoon.jpg"style="height:130;width:234"/>
+		</div>
+		<div class="video">
+			<img src="http://2.bp.blogspot.com/-gWZUMBuI0W8/UaDA_EBjVwI/AAAAAAAAAq8/pkKRug-uzWU/s1600/Chahun-Main-Ya-Na-Lyrics9.jpg"style="height:130;width:234"/>
+		</div>
+	</div>
+	<div class="videoarea">
+		<legend><img id="legendicon" src="vijaytv.png">Vijay TV</legend><a href="https://accounts.google.com/ServiceLogin?uilel=3&hl=en&service=youtube&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Den%26feature%3Dsubscribe%26continue_action%3DQUFFLUhqbnZ3WElqdGVucnltZXU0RUdCUjE3TXBXV3FwQXxBQ3Jtc0ttcDVlc0V1V1FKR1hvM0FoZkZ1VEtHd3Fva3BucTlZbE9LdUNBSVRhRTJLNzU3OWx0YVpOQTBHaVpLX2c4T0NmWmloNDZaUmJpc0I4Y09XM3c5MTV3UjUwUWstVDdwcGNrVXhXcUNyYV8zMWpIR2ctblNpLWxaSnY4ZEtXT2UyNlZlYUdvMjY1V0tJMmtPOGViNmF6N0V2LVhWRFZDcjVjSUtyYVdVWFFrcFRIcGF6eThVV1pOYkZZdmxOdTQycEs1Sm5CRDhORC1iRlhqUTBKYXEwRHRqOTN5U19B%26action_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fchannel%252FUC_2irx_BQR7RsBKmUV9fePQ#identifier"><button id="subscribebutton"><img src="subscribe.jpg" id="subscribeicon">Subscribe</button></a><div id="nos">206,359</div>
+		<div class="video">
+			<img src="http://www.thehindu.com/multimedia/dynamic/01636/31MP_ASHA1_1636454g.jpg" style="height:130;width:234"/>
+		</div>
+		<div class="video">
+			<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10645201_1557937184437278_734939381769315173_n.jpg?oh=604633e029218cb7d768e2aa05890775&oe=55ADAB5F&__gda__=1436605159_3602989b401977f13d952459565d48fc" style="height:130;width:234"/>
+		</div>
+		<div class="video">
+			<img src="http://i.ytimg.com/vi/jOoPdE_2VFM/hqdefault.jpg"style="height:130;width:234"/>
+		</div>
+		<div class="video">
+			<img src="http://mimg.sulekha.com/ajith-kumar/images/event-photos/vijay-awards-tv-telecast-posters/vijay-awards-tv-telecast-posters-stills01.jpg"style="height:130;width:234"/>
+		</div>
+	</div>
+	<div class="videoarea">
+		<legend><img id="legendicon" src="http://cdn.marketplaceimages.windowsphone.com/v8/images/332e4201-45d4-43ab-80fa-acc42779b185?imageType=ws_icon_large">PIX</legend><a href="https://accounts.google.com/ServiceLogin?uilel=3&hl=en&service=youtube&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fhl%3Den%26feature%3Dsubscribe%26continue_action%3DQUFFLUhqbnZ3WElqdGVucnltZXU0RUdCUjE3TXBXV3FwQXxBQ3Jtc0ttcDVlc0V1V1FKR1hvM0FoZkZ1VEtHd3Fva3BucTlZbE9LdUNBSVRhRTJLNzU3OWx0YVpOQTBHaVpLX2c4T0NmWmloNDZaUmJpc0I4Y09XM3c5MTV3UjUwUWstVDdwcGNrVXhXcUNyYV8zMWpIR2ctblNpLWxaSnY4ZEtXT2UyNlZlYUdvMjY1V0tJMmtPOGViNmF6N0V2LVhWRFZDcjVjSUtyYVdVWFFrcFRIcGF6eThVV1pOYkZZdmxOdTQycEs1Sm5CRDhORC1iRlhqUTBKYXEwRHRqOTN5U19B%26action_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fchannel%252FUC_2irx_BQR7RsBKmUV9fePQ#identifier"><button id="subscribebutton"><img src="subscribe.jpg" id="subscribeicon">Subscribe</button></a><div id="nos">37,922</div>
+		<div class="video">
+			<img src="http://1.bp.blogspot.com/-2_AANGYRkZc/VAMY-hIXESI/AAAAAAAAAKg/lILbXJ3pJFU/s1600/Indian%2BIdol%2BJunior%2BSeason%2B4%2B2014.jpg" style="height:130;width:234"/>
+		</div>
+		<div class="video">
+			<img src="http://4.bp.blogspot.com/-iDaVlO9Uuok/VBNUIIMcyHI/AAAAAAAAAUo/Zc-RI6ghnzM/s1600/Itti%2BSi%2BKhushi%2BTV%2BSerial%2Bon%2BSony%2B-%2BStory%2B%26%2BFull%2BStar%2BCast%2BSmriti%2BKalra,%2BAnuj%2BSachdeva.jpg" style="height:130;width:234"/>
+		</div>
+		<div class="video">
+			<img src="http://img.xcitefun.net/users/2008/07/7894,xcitefun-dus-ka-dum-1.jpg"style="height:130;width:234"/>
+		</div>
+		<div class="video">
+			<img src="http://im.rediff.com/movies/2009/jun/16sd3.jpg"style="height:130;width:234"/>
+		</div>
+	</div>
+	
+</div>
+<div class="bottomarea">
+	<div class="bottom">
+		<a href="http://www.youtube.com"><img class="logospan"src="http://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" style="  float: left;
+  display: inline-block;
+  margin-left: -20px;" ></a>
+	</div>
+	<div class="bottombuttons">
+		<input type="button" id="language" value="Language:English">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" id="country" value="Country:India">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" id="safety" value="Safety:Off">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" id="help" value="Help">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+</div>
+<div class="bottomoptions">
+	
+	<div class="bottomoptionslevel1">
+		<label id="option">About</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Press</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Copyright</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Creators</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Advertise</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Developers</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">+Youtube</label>&nbsp;&nbsp;&nbsp;&nbsp;
+	</div><br>
+	<div class="bottomoptionslevel2">
+		<label id="option">Terms</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Privacy</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Policy & Safety</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Send Feedback</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">Try Something new!</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		<label id="option">2015 Youtube,LLC</label>&nbsp;&nbsp;&nbsp;&nbsp;
+		
+	</div>
+</div>
+</div>
+</div>
+
+	
+</body>
+</html>
